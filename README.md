@@ -4,7 +4,7 @@ Brings powerful JMX capabilities to your Alfresco installation (Administrators) 
 
 ###Why?
 
-JMX (Java Messaging eXtensions) capabilities have been previously only available to Alfresco Enterprise installations.  This module brings JMX to Alfresco Community edition installations, including installations of [LXCommunity ECM](https://loftux.se/en/products-and-add-ons/lxcommunity).
+JMX (Java Management eXtensions) capabilities have been previously only available to Alfresco Enterprise installations.  This module brings JMX to Alfresco Community edition installations, including installations of [LXCommunity ECM](https://loftux.se/en/products-and-add-ons/lxcommunity).
 
 The existing JMX implementation available with Alfresco Enterprise is based on a proprietary implementation of JMX related beans. Since then, Spring framework has included built-in support for adding annotations to make it easier to develop and build JMX resource and operation exporting beans. 
 
