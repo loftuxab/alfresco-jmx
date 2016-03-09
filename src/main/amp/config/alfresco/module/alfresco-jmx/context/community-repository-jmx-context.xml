@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+    <bean id="readOnlyMBean" class="se.loftux.modules.alfrescojmx.management.core.ReadOnlyMBean">
+        <property name="transactionService" ref="transactionService"/>
+    </bean>
+
+    <bean id="statisticsBean" class="se.loftux.modules.alfrescojmx.management.Statistics" parent="readOnlyMBean">
+        <property name="authorityService" ref="AuthorityService"/>
+    </bean>
+</beans>
